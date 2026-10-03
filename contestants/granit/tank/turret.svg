@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>ГРАНИТ — башня</title>
+  <defs>
+    <linearGradient id="g-tur" x1="24" y1="22" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93ad67"/>
+      <stop offset="0.6" stop-color="#6b8a42"/>
+      <stop offset="1" stop-color="#4d6630"/>
+    </linearGradient>
+    <linearGradient id="g-barrel" x1="40" y1="30" x2="62" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3a3f45"/>
+      <stop offset="1" stop-color="#22262a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ствол: толстый, короткий, с дульным тормозом -->
+  <rect x="38" y="29" width="20" height="6" rx="1.6" fill="url(#g-barrel)" stroke="#101214" stroke-width="1.2"/>
+  <rect x="55" y="27.2" width="7" height="9.6" rx="1.4" fill="#17191c" stroke="#0b0c0e" stroke-width="1"/>
+  <path d="M56.6 27.6 v8.8 M59 27.6 v8.8 M61.4 27.6 v8.8" stroke="#3d444b" stroke-width="1.1"/>
+
+  <!-- маска пушки -->
+  <path d="M34 25 h7 v14 h-7 z" fill="#2c3035" stroke="#0e1012" stroke-width="1.2"/>
+
+  <!-- башня: гранёный шестиугольник -->
+  <path d="M22 21 H40 L46 27 V37 L40 43 H22 L16 37 V27 Z"
+        fill="url(#g-tur)" stroke="#2c3a1a" stroke-width="1.7"/>
+  <path d="M24 24.5 H38.5 L43 28.5 V35.5 L38.5 39.5 H24 L19.5 35.5 V28.5 Z"
+        fill="none" stroke="#394d20" stroke-width="1.1" opacity="0.85"/>
+
+  <!-- командирская башенка -->
+  <circle cx="28" cy="32" r="5.4" fill="#546d33" stroke="#2c3a1a" stroke-width="1.3"/>
+  <circle cx="28" cy="32" r="3" fill="#40552a" stroke="#26330f" stroke-width="1"/>
+  <path d="M26.4 30.4 a2.4 2.4 0 0 1 3.2 0" stroke="#b7c98e" stroke-width="1.2" fill="none"/>
+
+  <!-- клёпки башни -->
+  <g fill="#a9bc7d" stroke="#31401c" stroke-width="0.5">
+    <circle cx="23" cy="22.6" r="1"/><circle cx="31" cy="22.2" r="1"/><circle cx="39" cy="22.6" r="1"/>
+    <circle cx="23" cy="41.4" r="1"/><circle cx="31" cy="41.8" r="1"/><circle cx="39" cy="41.4" r="1"/>
+    <circle cx="17.4" cy="27.5" r="1"/><circle cx="17.4" cy="36.5" r="1"/>
+  </g>
+
+  <!-- смотровой прибор -->
+  <rect x="39.5" y="29.5" width="3.4" height="5" rx="0.8" fill="#1d2126" stroke="#0e1012" stroke-width="0.8"/>
+</svg>

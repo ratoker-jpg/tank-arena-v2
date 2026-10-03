@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>ГРАНИТ — корпус</title>
+  <defs>
+    <linearGradient id="g-track" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e33"/>
+      <stop offset="0.5" stop-color="#191c1f"/>
+      <stop offset="1" stop-color="#2a2e33"/>
+    </linearGradient>
+    <linearGradient id="g-hull" x1="10" y1="14" x2="52" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8aa65e"/>
+      <stop offset="0.55" stop-color="#66853f"/>
+      <stop offset="1" stop-color="#48612d"/>
+    </linearGradient>
+    <linearGradient id="g-glacis" x1="46" y1="18" x2="60" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#96b26c"/>
+      <stop offset="1" stop-color="#5a7438"/>
+    </linearGradient>
+  </defs>
+
+  <!-- гусеницы с катками -->
+  <rect x="3" y="4" width="58" height="13" rx="4" fill="url(#g-track)" stroke="#0b0c0e" stroke-width="1.4"/>
+  <rect x="3" y="47" width="58" height="13" rx="4" fill="url(#g-track)" stroke="#0b0c0e" stroke-width="1.4"/>
+  <g fill="#454c54" stroke="#14161a" stroke-width="1">
+    <circle cx="11" cy="10.5" r="3.4"/><circle cx="20" cy="10.5" r="3.4"/><circle cx="29" cy="10.5" r="3.4"/>
+    <circle cx="38" cy="10.5" r="3.4"/><circle cx="47" cy="10.5" r="3.4"/><circle cx="55" cy="10.5" r="3.4"/>
+    <circle cx="11" cy="53.5" r="3.4"/><circle cx="20" cy="53.5" r="3.4"/><circle cx="29" cy="53.5" r="3.4"/>
+    <circle cx="38" cy="53.5" r="3.4"/><circle cx="47" cy="53.5" r="3.4"/><circle cx="55" cy="53.5" r="3.4"/>
+  </g>
+  <g fill="#8b939d">
+    <circle cx="11" cy="10.5" r="1.2"/><circle cx="20" cy="10.5" r="1.2"/><circle cx="29" cy="10.5" r="1.2"/>
+    <circle cx="38" cy="10.5" r="1.2"/><circle cx="47" cy="10.5" r="1.2"/><circle cx="55" cy="10.5" r="1.2"/>
+    <circle cx="11" cy="53.5" r="1.2"/><circle cx="20" cy="53.5" r="1.2"/><circle cx="29" cy="53.5" r="1.2"/>
+    <circle cx="38" cy="53.5" r="1.2"/><circle cx="47" cy="53.5" r="1.2"/><circle cx="55" cy="53.5" r="1.2"/>
+  </g>
+
+  <!-- корпус: тяжёлый гранёный бронекороб -->
+  <path d="M10 17 H46 L59 24 V40 L46 47 H10 L6 42 V22 Z"
+        fill="url(#g-hull)" stroke="#2c3a1a" stroke-width="1.6"/>
+  <!-- верхняя палуба -->
+  <path d="M14 20 H44 L54 26 V38 L44 44 H14 L11 40 V24 Z"
+        fill="none" stroke="#394d20" stroke-width="1.2" opacity="0.85"/>
+  <!-- лобовой скос -->
+  <path d="M46 20 L58 26 V38 L46 44 Z" fill="url(#g-glacis)" stroke="#2c3a1a" stroke-width="1.4"/>
+  <path d="M48 23 L56 27.5 M48 41 L56 36.5" stroke="#c7d6a0" stroke-width="1.6" opacity="0.7"/>
+
+  <!-- клёпка по периметру -->
+  <g fill="#a9bc7d" stroke="#31401c" stroke-width="0.6">
+    <circle cx="14" cy="18.8" r="1.1"/><circle cx="21" cy="18.8" r="1.1"/><circle cx="28" cy="18.8" r="1.1"/><circle cx="35" cy="18.8" r="1.1"/><circle cx="42" cy="18.8" r="1.1"/>
+    <circle cx="14" cy="45.2" r="1.1"/><circle cx="21" cy="45.2" r="1.1"/><circle cx="28" cy="45.2" r="1.1"/><circle cx="35" cy="45.2" r="1.1"/><circle cx="42" cy="45.2" r="1.1"/>
+    <circle cx="8" cy="24" r="1.1"/><circle cx="8" cy="31" r="1.1"/><circle cx="8" cy="38" r="1.1"/>
+  </g>
+
+  <!-- решётка моторного отсека (корма) -->
+  <g stroke="#2c3a1a" stroke-width="1.6" opacity="0.9">
+    <path d="M12 26 h8 M12 29.5 h8 M12 33 h8 M12 36.5 h8"/>
+  </g>
+
+  <!-- аварийные шевроны на корме -->
+  <g>
+    <path d="M6.5 21.5 L9.5 24 M6.5 26.5 L9.5 29 M6.5 31.5 L9.5 34 M6.5 36.5 L9.5 39 M6.5 41.5 L9.5 44"
+          stroke="#d9b93c" stroke-width="2" opacity="0.9"/>
+  </g>
+
+  <!-- буксирные крюки -->
+  <path d="M56.5 22.5 l3 -1.5 M56.5 41.5 l3 1.5" stroke="#1e2812" stroke-width="2" stroke-linecap="round"/>
+</svg>
