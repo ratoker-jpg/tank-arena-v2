@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>ЗАРЯ — башня</title>
+  <defs>
+    <radialGradient id="za-dome" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#5a4390"/>
+      <stop offset="1" stop-color="#241a45"/>
+    </radialGradient>
+  </defs>
+  <!-- длинный тонкий ствол с золотым дульником -->
+  <rect x="34" y="30" width="26" height="4" rx="1.5" fill="#241a45" stroke="#0d0a18" stroke-width="1"/>
+  <rect x="57" y="28.6" width="4.5" height="6.8" rx="1.2" fill="#ffd166" stroke="#b9862e" stroke-width="0.8"/>
+  <!-- противовес сзади -->
+  <rect x="17" y="28.5" width="6" height="7" rx="1.5" fill="#1c1530" stroke="#b9862e" stroke-width="0.9"/>
+  <!-- круглая башня -->
+  <circle cx="31" cy="32" r="11" fill="url(#za-dome)" stroke="#ffd166" stroke-width="2"/>
+  <!-- восход: золотой полудиск, носом вправо -->
+  <path d="M27 36.5 A6.5 6.5 0 0 1 40 36.5 Z" fill="#ffd166" stroke="#b9862e" stroke-width="0.9"/>
+  <rect x="26" y="36.5" width="15" height="2.4" rx="1.2" fill="#171030"/>
+  <path d="M33.5 27.5v2.2M29.5 28.8l1.2 1.8M37.5 28.8l-1.2 1.8" stroke="#ffd166" stroke-width="1.2"/>
+  <!-- ступица -->
+  <circle cx="31" cy="32" r="2.4" fill="#171030" stroke="#ffd166" stroke-width="1"/>
+</svg>
