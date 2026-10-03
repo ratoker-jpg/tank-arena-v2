@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>ВЕКТОР — корпус</title>
+  <defs>
+    <linearGradient id="v-hull" x1="10" y1="14" x2="55" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9b2ff"/><stop offset="0.55" stop-color="#7467e8"/><stop offset="1" stop-color="#3d347f"/>
+    </linearGradient>
+    <linearGradient id="v-track" x1="8" y1="7" x2="55" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20243a"/><stop offset="1" stop-color="#090b14"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 7H47L56 12V19H7V11Z" fill="url(#v-track)" stroke="#070912" stroke-width="2"/>
+  <path d="M7 45H56V52L47 57H8L7 53Z" fill="url(#v-track)" stroke="#070912" stroke-width="2"/>
+  <path d="M13 8V18M20 8V18M27 8V18M34 8V18M41 8V18M48 10V18M13 46V56M20 46V56M27 46V56M34 46V56M41 46V56M48 46V54" stroke="#596079" stroke-width="1.8"/>
+  <path d="M8 22L16 15H42L58 24L62 32L58 40L42 49H16L8 42L5 32Z" fill="#15182b" stroke="#070912" stroke-width="2"/>
+  <path d="M14 23L21 18H41L53 25L58 32L53 39L41 46H21L14 41L10 32Z" fill="url(#v-hull)" stroke="#b9b2ff" stroke-width="1.2"/>
+  <path d="M39 20L53 27L58 32L53 37L39 44L44 32Z" fill="#3f3789"/>
+  <path d="M44 25L54 32L44 39" stroke="#63f4e8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 24H34M17 40H34" stroke="#d8d4ff" stroke-width="1.2" opacity=".8"/>
+  <circle cx="32" cy="32" r="14" fill="#111528" stroke="#8b82ff" stroke-width="1.3"/>
+  <path d="M19 32H27M37 32H45M32 19V27M32 37V45" stroke="#63f4e8" stroke-width="1.3" opacity=".8"/>
+  <circle cx="32" cy="32" r="10.5" stroke="#c7c2ff" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M9 24L14 20M9 40L14 44" stroke="#ffcf66" stroke-width="2"/>
+</svg>

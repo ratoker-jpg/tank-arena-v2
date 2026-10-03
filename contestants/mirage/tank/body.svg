@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="mirage-hu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6d31e0"/><stop offset="1" stop-color="#4a1a9c"/></linearGradient>
+<linearGradient id="mirage-hd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#33117d"/><stop offset="1" stop-color="#1c0946"/></linearGradient>
+<clipPath id="mirage-clip"><rect x="0" y="17" width="24" height="30"/></clipPath>
+</defs>
+<g clip-path="url(#mirage-clip)">
+<path d="M60 32 37 14.8 12.5 12.2 9 16.5 20 32 9 47.5 12.5 51.8 37 49.2Z" transform="translate(-9 0)" fill="#22d3ee" fill-opacity=".28" stroke="#22d3ee" stroke-opacity=".85" stroke-width="1"/>
+<path d="M60 32 37 14.8 12.5 12.2 9 16.5 20 32 9 47.5 12.5 51.8 37 49.2Z" transform="translate(-4.5 0)" fill="#c084fc" fill-opacity=".45" stroke="#c084fc" stroke-width="1"/>
+</g>
+<g fill="#17112a" stroke="#07040e" stroke-width="1.2">
+<rect x="5" y="6" width="45" height="11" rx="3"/>
+<rect x="5" y="47" width="45" height="11" rx="3"/>
+</g>
+<path d="M9 7.5v8M15 7.5v8M21 7.5v8M27 7.5v8M33 7.5v8M39 7.5v8M45 7.5v8M9 48.5v8M15 48.5v8M21 48.5v8M27 48.5v8M33 48.5v8M39 48.5v8M45 48.5v8" stroke="#4d3f7d" stroke-width="2.4"/>
+<path d="M60 32 37 14.8 12.5 12.2 9 16.5 20 32 9 47.5 12.5 51.8 37 49.2Z" fill="#0d0719" stroke="#0d0719" stroke-width="3.4" stroke-linejoin="round"/>
+<path d="M60 32 37 14.8 12.5 12.2 9 16.5 20 32Z" fill="url(#mirage-hu)"/>
+<path d="M60 32H20L9 47.5 12.5 51.8 37 49.2Z" fill="url(#mirage-hd)"/>
+<path d="M60 32 50 24.5 47 32Z" fill="#a78bfa"/>
+<path d="M60 32H47L50 39.5Z" fill="#6d28d9"/>
+<path d="M60 32 37 14.8 12.5 12.2 9 16.5 20 32 9 47.5 12.5 51.8 37 49.2Z" fill="none" stroke="#c084fc" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M13.2 17.9 19.8 27.2M13.2 46.1 19.8 36.8" stroke="#22d3ee" stroke-width="4.4" stroke-linecap="round" opacity=".35"/>
+<path d="M13.2 17.9 19.8 27.2M13.2 46.1 19.8 36.8" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+</svg>

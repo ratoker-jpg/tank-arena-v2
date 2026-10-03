@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>ВЕКТОР — башня</title>
+  <defs>
+    <linearGradient id="v-turret" x1="20" y1="20" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8d4ff"/><stop offset="0.55" stop-color="#8278ef"/><stop offset="1" stop-color="#443b94"/>
+    </linearGradient>
+    <linearGradient id="v-barrel" x1="39" y1="28" x2="59" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2f3652"/><stop offset="1" stop-color="#0b0e19"/>
+    </linearGradient>
+  </defs>
+  <path d="M39 28H58L62 30V34L58 36H39Z" fill="url(#v-barrel)" stroke="#070912" stroke-width="2"/>
+  <path d="M45 31H60V33H45Z" fill="#63f4e8"/>
+  <path d="M57 28V36" stroke="#ffcf66" stroke-width="2"/>
+  <path d="M18 25L28 18H36L45 25L47 32L44 40L35 46H27L18 40L15 32Z" fill="#111528" stroke="#070912" stroke-width="2"/>
+  <path d="M21 25L29 21H35L41 26L43 32L40 38L34 43H28L21 39L18 32Z" fill="url(#v-turret)"/>
+  <path d="M23 32L30 25H36L41 32L36 39H30Z" fill="#1b2140" stroke="#63f4e8" stroke-width="1.4"/>
+  <path d="M27 32H38M32.5 26.5V37.5" stroke="#cfcaff" stroke-width="1" opacity=".9"/>
+  <circle cx="32.5" cy="32" r="3.3" fill="#63f4e8" stroke="#08131d" stroke-width="1.2"/>
+  <circle cx="31.5" cy="31" r="1" fill="#f7ffff"/>
+  <path d="M20 24L17 27M20 40L17 37" stroke="#ffcf66" stroke-width="1.8"/>
+</svg>
