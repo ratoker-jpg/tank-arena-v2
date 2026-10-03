@@ -82,7 +82,10 @@ function firstWallBetween(a, b, pad) {
 
 function zoneRadiusAt(s, time) {
   const k = clamp((time - s.zone.shrinkStart) / (s.zone.shrinkEnd - s.zone.shrinkStart), 0, 1);
-  return s.zone.radius + (s.zone.finalRadius - s.zone.radius) * k;
+  // The observation contains the live radius, so use the arena's original radius
+  // when extrapolating the complete linear shrink curve.
+  const initialRadius = Math.hypot(s.arena.width / 2, s.arena.height / 2) + 60;
+  return initialRadius + (s.zone.finalRadius - initialRadius) * k;
 }
 
 // ---------- движение ----------
@@ -581,8 +584,8 @@ export default {
         const rd = retreatDirection(s);
         const sw = swaySign * swayAmp;
         const retreat = clamp(560 - dE, 0, 340);
-        const tx = me.x + rd.x * (60 + retreat) - rd.y * sw * 0.5;
-        const ty = me.y + rd.y * (60 + retreat) + rd.x * sw * 0.5;
+        tx = me.x + rd.x * (60 + retreat) - rd.y * sw * 0.5;
+        ty = me.y + rd.y * (60 + retreat) + rd.x * sw * 0.5;
         point = posSafe(tx, ty, 30) ? { x: tx, y: ty } : { x: me.x + rd.x * 90, y: me.y + rd.y * 90 };
         allowReverse = false;
       } else {
