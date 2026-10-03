@@ -1,4 +1,5 @@
 node_modules/
+*.lnk
 __pycache__/
 contestants/*/lab/pip-cache/
 contestants/*/lab/vendor/
